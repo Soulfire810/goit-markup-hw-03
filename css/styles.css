@@ -1,0 +1,213 @@
+:root {
+    --primary-color: #757575;
+    --secondary-color: #212121;
+    --full-black-color: ##000000;
+    --full-white-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --primary-background-color: #FFFFFF;
+    --secondary-background-color: #2196F3;
+    --thirdly-background-color: #F5F4FA;
+    --footer-background-color: #2F303A;
+    --footer-email-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Загальні параметри */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+    background-color: var(--primary-background-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}   
+.link {
+    text-decoration: none;
+}
+.link:hover,
+.link:focus,
+.link:active {
+    color: var(--accent-color);
+}
+.list {
+    list-style: none;
+}
+.nav-list .link.current {
+    color: var(--accent-color);
+}
+
+/* HEADER */
+.header {
+    background-color: var(--primary-background-color);
+    font-weight: 500;
+    line-height: 1.14;
+}
+
+/* LOGO */
+.web {
+    color: var(--accent-color);
+}
+.studio {
+    color: var(--full-black-color);
+}
+.link-studio {
+    color: var(--secondary-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+/* LINKS */
+.nav-list .link,
+.auth-nav-list {
+    color: var(--secondary-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+}
+.nav-list .link:hover,
+.nav-list .link:focus,
+.nav-list .link:active {
+    color: var(--accent-color);
+}
+
+.auth-nav-list .auth-link {
+    color: var(--primary-color);  
+}
+.auth-nav-list .auth-link:hover,
+.auth-nav-list .auth-link:focus,
+.auth-nav-list .auth-link:active {
+    color: var(--accent-color);
+}
+
+/* HERO */
+.hero-section {
+    background-color: #2F303A;
+    color: var(--full-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-button {
+    color: var(--full-white-color);
+    background-color: var(--secondary-background-color);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+
+/* Specialties */
+.spec-title {
+    color: var(--secondary-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.spec-text {
+    line-height: 1.71;
+}
+
+/* OUR JOB */
+.job-title {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+/* OUR TEAM */
+.team-section {
+    background-color: var(--thirdly-background-color);
+}
+.team-title {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+.name {
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+.position {
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+/* PORTFOLIO */
+.button {
+    background-color: var(--thirdly-background-color);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+.button:hover,
+.button:focus,
+.button:active {
+    color: var(--full-white-color);
+    background-color: var(--secondary-background-color);
+}
+.project-list .link {
+    color: var(--secondary-color);
+}
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.project-text {
+    color: var(--primary-color);
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.project-list .link:hover,
+.project-list .link:focus,
+.project-list .link:active {
+    color: var(--accent-color);
+}
+
+/* FOOTER */
+.footer {
+    background-color: var(--footer-background-color);
+}
+.web {
+    color: var(--accent-color);
+}
+.studio-white {
+    color: var(--full-white-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.address-link {
+    font-style: normal;
+    line-height: 1.71;
+    color: var(--full-white-color);
+}
+.mail-bottom,
+.tel-bottom {
+    font-style: normal;
+    line-height: 1.71;
+    color: var(--footer-email-color);
+}
