@@ -331,7 +331,7 @@ body {
 }
 .project-card {
     width: 370px;
-    border: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 .project-descr {
     margin: 20px 24px;
