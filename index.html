@@ -20,21 +20,22 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body class="body">
     <!--Header (Заголовок)-->
-    <div class="container">
-      <header class="header">
-        <nav class="site-nav">
+    <header class="header flex-nav">
+      <div class="container flex-nav">
+        <nav class="site-nav flex-nav">
           <a href="./index.html" class="link-studio link"
             ><span class="web">Web</span><span class="studio">Studio</span></a
           >
-          <ul class="nav-list list">
+          <ul class="nav-list list flex-nav">
             <li class="item"><a class="link current" href="./index.html">Студія</a></li>
             <li class="item"><a class="link" href="./portfolio.html">Портфоліо</a></li>
             <li class="item"><a class="link" href="">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="auth-nav-list list">
+        <ul class="auth-nav-list list flex-nav">
           <li class="item">
             <a class="auth-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
@@ -42,68 +43,68 @@
             <a class="auth-link link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </header>
-    </div>
+      </div>
+    </header>
 
     <main>
       <!--HERO (банер)-->
-      <div class="container">
-        <section class="hero-section">
+      <section class="hero-section">
+        <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero-button">Замовити послугу</button>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <!--Specialties (Особливості)-->
-      <div class="container">
-        <section class="spec-section">
-          <h2 hidden>Особливості</h2>
-          <ul class="list">
-            <li>
+      <section class="spec-section">
+        <div class="container">
+          <h2 class="visually-hidden">Особливості</h2>
+          <ul class="list spec-list">
+            <li class="spec-item">
               <h3 class="spec-title">увага до деталей</h3>
               <p class="spec-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-            <li>
+            <li class="spec-item">
               <h3 class="spec-title">пунктуальність</h3>
               <p class="spec-text">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
-            <li>
+            <li class="spec-item">
               <h3 class="spec-title">планування</h3>
               <p class="spec-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li>
+            <li class="spec-item">
               <h3 class="spec-title">сучасні технології</h3>
               <p class="spec-text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <!-- Our job (Чим ми займаємося)-->
-      <div class="container">
-        <section class="job-section">
+      <section class="job-section">
+        <div class="container">
           <h2 class="job-title">Чим ми займаємося</h2>
-          <ul class="list">
-            <li><img src="./img/img1.jpg" alt="зображення1" width="370" /></li>
-            <li><img src="./img/img2.jpg" alt="зображення2" width="370" /></li>
-            <li><img src="./img/img3.jpg" alt="зображення3" width="370" /></li>
+          <ul class="list job-list">
+            <li class="job-img"><img src="./img/img1.jpg" alt="зображення1" width="370" /></li>
+            <li class="job-img"><img src="./img/img2.jpg" alt="зображення2" width="370" /></li>
+            <li class="job-img"><img src="./img/img3.jpg" alt="зображення3" width="370" /></li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <!--Our team (Наша команда)-->
-      <div class="container">
-        <section class="team-section">
+      <section class="team-section">
+        <div class="container">
           <h2 class="team-title">Наша команда</h2>
-          <ul class="list">
+          <ul class="list team-list">
             <li class="team-member">
               <img src="./img/demianenko.jpg" alt="Дем'яненко" width="270" />
               <h3 class="name">Ігор Дем'яненко</h3>
@@ -125,13 +126,13 @@
               <p class="position">UI Designer</p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
     <!--Footer (Підвал)-->
-    <div class="container">
-      <footer class="footer">
+    <footer class="footer">
+      <div class="container">
         <a href="./index.html" class="link-studio link"
           ><span class="web">Web</span><span class="studio-white">Studio</span></a
         >
@@ -154,7 +155,7 @@
             </li>
           </ul>
         </address>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
